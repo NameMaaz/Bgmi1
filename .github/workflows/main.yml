@@ -24,10 +24,6 @@ jobs:
       run: |
         pip install telebot --break-system-packages
     
-    - name: Install aiogram
-      run: |
-        pip install aiogram --break-system-packages
-      
     - name: Install timedelta
       run: |
         pip install timedelta --break-system-packages
